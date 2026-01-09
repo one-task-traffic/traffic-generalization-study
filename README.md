@@ -22,12 +22,18 @@ git clone https://github.com/one-task-traffic/traffic-generalization-study.git
 cd traffic-generalization-study
 ```
 
-2. Install the required dependencies:
+2. Create and activate a virtual environment:
+```bash
+conda create -n onetask python=3.10
+conda activate onetask
+```
+
+3. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set up the model output directories:
+4. Set up the model output directories:
 ```bash
 mkdir -p model_outputs/model_weights
 mkdir -p model_outputs/full_model
