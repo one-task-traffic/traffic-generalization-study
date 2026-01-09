@@ -77,3 +77,24 @@ model_outputs/
 - `full_model/`: Contains both architecture and weights for complete model restoration
 
 Make sure both subdirectories exist before training begins.
+
+## Citation
+
+If you use this work in your research, please cite:
+
+Elham Akbari, Zihao Zhou, Mohammad Ali Salahuddin, Noura Limam, Raouf Boutaba, Bertrand Mathieu, Stephanie Moteau, and Stephane Tuffin.  
+**One task to rule them all: A closer look at traffic classification generalizability**  
+*arXiv preprint* arXiv:2507.06430, 2025.  
+https://arxiv.org/abs/2507.06430
+
+```bibtex
+@misc{akbari2025taskruleallcloser,
+      title={One task to rule them all: A closer look at traffic classification generalizability}, 
+      author={Elham Akbari and Zihao Zhou and Mohammad Ali Salahuddin and Noura Limam and Raouf Boutaba and Bertrand Mathieu and Stephanie Moteau and Stephane Tuffin},
+      year={2025},
+      eprint={2507.06430},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2507.06430}, 
+}
+```
